@@ -364,9 +364,14 @@ overlay.addEventListener("click", () => {
   hamburgerBtn.classList.remove("hidden-hamburger");
 });
 
-window.addEventListener("click", (e) => {
-  if (window.innerWidth <= 768 && sidebar.classList.contains("open") &&
-      !sidebar.contains(e.target) && !hamburgerBtn.contains(e.target)) {
+
+document.addEventListener("click", (e) => {
+  if (
+    window.innerWidth <= 768 &&
+    sidebar.classList.contains("open") &&
+    !sidebar.contains(e.target) &&
+    !hamburgerBtn.contains(e.target)
+  ) {
     sidebar.classList.remove("open");
     overlay.classList.remove("active");
     hamburgerBtn.classList.remove("hidden-hamburger");
