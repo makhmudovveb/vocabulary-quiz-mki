@@ -1,0 +1,12 @@
+[
+  { "ru": "река", "en": "river", "unit": 1 },
+  { "ru": "море", "en": "sea", "unit": 1 },
+  { "ru": "озеро", "en": "lake", "unit": 1 },
+  { "ru": "гора", "en": "mountain", "unit": 1 },
+  { "ru": "лес", "en": "forest", "unit": 1 },
+  { "ru": "пустыня", "en": "desert", "unit": 1 },
+  { "ru": "долина", "en": "valley", "unit": 1 },
+  { "ru": "пещера", "en": "cave", "unit": 1 },
+  { "ru": "водопад", "en": "waterfall", "unit": 1 },
+  { "ru": "остров", "en": "island", "unit": 1 }
+]

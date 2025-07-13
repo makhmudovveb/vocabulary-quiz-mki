@@ -1,0 +1,12 @@
+[
+  { "ru": "эмоции", "en": "emotions", "unit": 7 },
+  { "ru": "радость", "en": "joy", "unit": 7 },
+  { "ru": "печаль", "en": "sadness", "unit": 7 },
+  { "ru": "страх", "en": "fear", "unit": 7 },
+  { "ru": "гнев", "en": "anger", "unit": 7 },
+  { "ru": "любовь", "en": "love", "unit": 7 },
+  { "ru": "надежда", "en": "hope", "unit": 7 },
+  { "ru": "удивление", "en": "surprise", "unit": 7 },
+  { "ru": "стыд", "en": "shame", "unit": 7 },
+  { "ru": "гордость", "en": "pride", "unit": 7 }
+]

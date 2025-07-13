@@ -1,0 +1,12 @@
+[
+  { "ru": "техника", "en": "technology", "unit": 9 },
+  { "ru": "компьютер", "en": "computer", "unit": 9 },
+  { "ru": "программа", "en": "program", "unit": 9 },
+  { "ru": "сайт", "en": "website", "unit": 9 },
+  { "ru": "приложение", "en": "app", "unit": 9 },
+  { "ru": "робот", "en": "robot", "unit": 9 },
+  { "ru": "интернет", "en": "internet", "unit": 9 },
+  { "ru": "электронный", "en": "electronic", "unit": 9 },
+  { "ru": "цифровой", "en": "digital", "unit": 9 },
+  { "ru": "социальный", "en": "social", "unit": 9 }
+]

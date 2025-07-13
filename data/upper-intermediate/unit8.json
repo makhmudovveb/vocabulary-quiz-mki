@@ -1,0 +1,12 @@
+[
+  { "ru": "технологии", "en": "technology", "unit": 8 },
+  { "ru": "инновация", "en": "innovation", "unit": 8 },
+  { "ru": "робототехника", "en": "robotics", "unit": 8 },
+  { "ru": "программирование", "en": "programming", "unit": 8 },
+  { "ru": "искусственный интеллект", "en": "artificial intelligence", "unit": 8 },
+  { "ru": "данные", "en": "data", "unit": 8 },
+  { "ru": "компьютер", "en": "computer", "unit": 8 },
+  { "ru": "сеть", "en": "network", "unit": 8 },
+  { "ru": "сервер", "en": "server", "unit": 8 },
+  { "ru": "безопасность", "en": "security", "unit": 8 }
+]

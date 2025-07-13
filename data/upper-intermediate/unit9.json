@@ -1,0 +1,12 @@
+[
+  { "ru": "путешествия", "en": "travel", "unit": 9 },
+  { "ru": "туризм", "en": "tourism", "unit": 9 },
+  { "ru": "отель", "en": "hotel", "unit": 9 },
+  { "ru": "путеводитель", "en": "guidebook", "unit": 9 },
+  { "ru": "бронирование", "en": "booking", "unit": 9 },
+  { "ru": "багаж", "en": "luggage", "unit": 9 },
+  { "ru": "паспорт", "en": "passport", "unit": 9 },
+  { "ru": "аэропорт", "en": "airport", "unit": 9 },
+  { "ru": "рейс", "en": "flight", "unit": 9 },
+  { "ru": "турист", "en": "tourist", "unit": 9 }
+]

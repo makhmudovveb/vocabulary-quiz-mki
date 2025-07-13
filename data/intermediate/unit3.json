@@ -1,0 +1,52 @@
+[
+{
+    "ru": "искусство",
+    "en": "art",
+    "unit": 3
+},
+{
+    "ru": "картина",
+    "en": "painting",
+    "unit": 3
+},
+{
+    "ru": "музей",
+    "en": "museum",
+    "unit": 3
+},
+{
+    "ru": "скульптура",
+    "en": "sculpture",
+    "unit": 3
+},
+{
+    "ru": "галерея",
+    "en": "gallery",
+    "unit": 3
+},
+{
+    "ru": "фотография",
+    "en": "photography",
+    "unit": 3
+},
+{
+    "ru": "театр",
+    "en": "theater",
+    "unit": 3
+},
+{
+    "ru": "опера",
+    "en": "opera",
+    "unit": 3
+},
+{
+    "ru": "балет",
+    "en": "ballet",
+    "unit": 3
+},
+{
+    "ru": "концерт",
+    "en": "concert",
+    "unit": 3
+}
+]

@@ -1,0 +1,12 @@
+[
+  { "ru": "спорт", "en": "sport", "unit": 6 },
+  { "ru": "футбол", "en": "football", "unit": 6 },
+  { "ru": "баскетбол", "en": "basketball", "unit": 6 },
+  { "ru": "теннис", "en": "tennis", "unit": 6 },
+  { "ru": "плавание", "en": "swimming", "unit": 6 },
+  { "ru": "бег", "en": "running", "unit": 6 },
+  { "ru": "велосипед", "en": "cycling", "unit": 6 },
+  { "ru": "тренировка", "en": "training", "unit": 6 },
+  { "ru": "турнир", "en": "tournament", "unit": 6 },
+  { "ru": "чемпион", "en": "champion", "unit": 6 }
+]

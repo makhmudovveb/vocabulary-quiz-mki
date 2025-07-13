@@ -1,0 +1,52 @@
+[
+  {
+    "ru": "еда",
+    "en": "food",
+    "unit": 4
+},
+{
+    "ru": "вода",
+    "en": "water",
+    "unit": 4
+},
+{
+    "ru": "молоко",
+    "en": "milk",
+    "unit": 4
+},
+{
+    "ru": "сок",
+    "en": "juice",
+    "unit": 4
+},
+{
+    "ru": "фрукты",
+    "en": "fruits",
+    "unit": 4
+},
+{
+    "ru": "овощи",
+    "en": "vegetables",
+    "unit": 4
+},
+{
+    "ru": "хлеб",
+    "en": "bread",
+    "unit": 4
+},
+{
+    "ru": "рука",
+    "en": "hand",
+    "unit": 4
+},
+{
+    "ru": "голова",
+    "en": "head",
+    "unit": 4
+},
+{
+    "ru": "нога",
+    "en": "leg",
+    "unit": 4
+}
+]

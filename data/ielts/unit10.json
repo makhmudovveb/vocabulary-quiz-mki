@@ -1,0 +1,42 @@
+[
+  {
+    "ru": "наука",
+    "en": "science"
+},
+{
+    "ru": "техника",
+    "en": "technology"
+},
+{
+    "ru": "исследование",
+    "en": "research"
+},
+{
+    "ru": "эксперимент",
+    "en": "experiment"
+},
+{
+    "ru": "открытие",
+    "en": "discovery"
+},
+{
+    "ru": "теория",
+    "en": "theory"
+},
+{
+    "ru": "данные",
+    "en": "data"
+},
+{
+    "ru": "анализ",
+    "en": "analysis"
+},
+{
+    "ru": "публикация",
+    "en": "publication"
+},
+{
+    "ru": "гипотеза",
+    "en": "hypothesis"
+}
+]

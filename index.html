@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vocabulary Quiz | MKI</title>
+
+  <!-- Стили -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Иконка -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+
+  <!-- Гамбургер для мобильных -->
+  <div class="hamburger" id="hamburgerBtn">☰</div>
+
+  <!-- Основная структура -->
+  <div class="layout">
+
+    <!-- Сайдбар -->
+    <div class="sidebar">
+
+      <!-- Логотип и заголовок -->
+      <div class="logo-block">
+        <img src="logo.ico" alt="MKI Logo" class="main-logo" />
+        <h2>Profile</h2> 
+      </div>
+
+      <!-- Панель пользователя -->
+      <div id="userBlock" class="hidden">
+        <p style="color: #fff;">
+          Hello, <strong id="username" style="text-shadow: 0 0 5px rgba(255, 179, 71, 0.8); font-size: larger;"></strong>!
+        </p>
+        <button id="logoutBtn">Log out</button>
+        <h3>Statistic</h3>
+        <ul id="quizStats"></ul>
+      </div>
+
+      <!-- Панель администратора -->
+      <div id="adminPanel" class="hidden">
+        <button id="clearStatsBtn">Clear all statistics</button>
+        <h3>Admin panel</h3>
+        <div id="adminStats"></div>
+      </div>
+
+    </div>
+
+    <!-- Контент викторины -->
+    <div class="main-content">
+      <div class="container">
+
+        <h1>Choice of Words</h1>
+
+        <!-- Выбор уровня и юнита -->
+        <div class="level-selector">
+          <select id="levelSelect">
+            <option value="">-- Select a level --</option>
+            <option value="elementary">Elementary</option>
+            <option value="pre-intermediate">Pre-Intermediate</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="upper-intermediate">Upper-Intermediate</option>
+            <option value="ielts">IELTS</option>
+          </select>
+
+          <select id="unitSelect">
+            <option value="">-- Select a unit --</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+
+          <button id="startQuiz" disabled>Start Quiz</button>
+          <div id="quizCountDisplay" style="margin-top:10px; font-weight:600; color:#0d47a1;"></div>
+        </div>
+
+        <!-- Таблица слов -->
+        <table id="wordList">
+          <thead>
+            <tr>
+              <th>Russian</th>
+              <th>English</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td colspan="2">Choose level and unit</td></tr>
+          </tbody>
+        </table>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Модальное окно авторизации -->
+  <div class="modal hidden" id="authModal">
+    <div class="modal-content auth-content">
+      <img src="favicon.ico" alt="Site Icon" class="site-icon" />
+      <h2>Log In / Register</h2>
+
+      <!-- Поля для регистрации/входа -->
+      <input type="text" id="nickname" placeholder="Nickname" autocomplete="nickname" />
+      <input type="email" id="email" placeholder="Email" autocomplete="email" />
+      <input type="password" id="password" placeholder="Password" autocomplete="current-password" />
+
+      <!-- Показать пароль -->
+      <div id="togglePasswordWrapper">
+        <input type="checkbox" class="hidden" id="togglePassword" />
+        <label for="togglePassword">Show password</label>
+      </div>
+
+      <!-- Кнопки -->
+      <button id="registerBtn">Register</button>
+      <button id="loginBtn">Log In</button>
+      <p id="authMsg" style="color: red; font-size: 0.9em;"></p>
+    </div>
+  </div>
+
+  <!-- Модальное окно викторины -->
+  <div class="modal hidden" id="quizModal">
+    <div class="modal-content">
+      <div id="timer">00:20</div>
+      <h2 id="quizTitle">Questions</h2>
+      <p id="quizQuestion">The question will appear here</p>
+      <input type="text" id="userAnswer" placeholder="Введите перевод" autocomplete="off" />
+      <button id="submitAnswer">Answer</button>
+      <div id="feedback"></div>
+    </div>
+  </div>
+
+  <!-- Модальное окно результатов -->
+  <div class="modal hidden" id="resultModal">
+    <div class="modal-content" id="resultContainer">
+      <h2>Results</h2>
+      <p>Correct ✅: <span id="resultCorrect">0</span></p>
+      <p>Wrong ❌: <span id="resultWrong">0</span></p>
+      <button onclick="location.reload()">End</button>
+    </div>
+  </div>
+
+  <!-- Затемнение при открытии меню -->
+  <div id="overlay"></div>
+
+  <!-- Подключения скриптов -->
+  <!-- <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js"></script> -->
+  <!-- <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js"></script> -->
+  <!-- <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script type="module" src="script.js"></script>
+
+</body>
+</html>

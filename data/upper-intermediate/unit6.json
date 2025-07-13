@@ -1,0 +1,12 @@
+[
+  { "ru": "образование", "en": "education", "unit": 6 },
+  { "ru": "университет", "en": "university", "unit": 6 },
+  { "ru": "курс", "en": "course", "unit": 6 },
+  { "ru": "лекция", "en": "lecture", "unit": 6 },
+  { "ru": "экзамен", "en": "exam", "unit": 6 },
+  { "ru": "стипендия", "en": "scholarship", "unit": 6 },
+  { "ru": "исследование", "en": "research", "unit": 6 },
+  { "ru": "учёный", "en": "scientist", "unit": 6 },
+  { "ru": "библиотека", "en": "library", "unit": 6 },
+  { "ru": "квалификация", "en": "qualification", "unit": 6 }
+]

@@ -1,0 +1,12 @@
+[
+  { "ru": "здоровье", "en": "health", "unit": 7 },
+  { "ru": "диета", "en": "diet", "unit": 7 },
+  { "ru": "фитнес", "en": "fitness", "unit": 7 },
+  { "ru": "йога", "en": "yoga", "unit": 7 },
+  { "ru": "медитация", "en": "meditation", "unit": 7 },
+  { "ru": "врач", "en": "doctor", "unit": 7 },
+  { "ru": "пациент", "en": "patient", "unit": 7 },
+  { "ru": "лечение", "en": "treatment", "unit": 7 },
+  { "ru": "симптом", "en": "symptom", "unit": 7 },
+  { "ru": "болезнь", "en": "disease", "unit": 7 }
+]

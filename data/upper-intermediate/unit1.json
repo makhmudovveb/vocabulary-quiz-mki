@@ -1,0 +1,12 @@
+[
+  { "ru": "стратегия", "en": "strategy", "unit": 1 },
+  { "ru": "лидер", "en": "leader", "unit": 1 },
+  { "ru": "команда", "en": "team", "unit": 1 },
+  { "ru": "менеджмент", "en": "management", "unit": 1 },
+  { "ru": "проект", "en": "project", "unit": 1 },
+  { "ru": "цель", "en": "goal", "unit": 1 },
+  { "ru": "задача", "en": "task", "unit": 1 },
+  { "ru": "решение", "en": "solution", "unit": 1 },
+  { "ru": "результат", "en": "result", "unit": 1 },
+  { "ru": "успех", "en": "success", "unit": 1 }
+]

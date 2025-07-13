@@ -1,0 +1,42 @@
+[
+  {
+    "ru": "здоровье",
+    "en": "health"
+},
+{
+    "ru": "болезнь",
+    "en": "illness"
+},
+{
+    "ru": "лечение",
+    "en": "treatment"
+},
+{
+    "ru": "врач",
+    "en": "doctor"
+},
+{
+    "ru": "пациент",
+    "en": "patient"
+},
+{
+    "ru": "симптом",
+    "en": "symptom"
+},
+{
+    "ru": "диагноз",
+    "en": "diagnosis"
+},
+{
+    "ru": "операция",
+    "en": "surgery"
+},
+{
+    "ru": "рецепт",
+    "en": "prescription"
+},
+{
+    "ru": "аптека",
+    "en": "pharmacy"
+}
+]

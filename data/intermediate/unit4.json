@@ -1,0 +1,52 @@
+[
+{
+    "ru": "технологии",
+    "en": "technology",
+    "unit": 4
+},
+{
+    "ru": "инновация",
+    "en": "innovation",
+    "unit": 4
+},
+{
+    "ru": "робототехника",
+    "en": "robotics",
+    "unit": 4
+},
+{
+    "ru": "программирование",
+    "en": "programming",
+    "unit": 4
+},
+{
+    "ru": "искусственный интеллект",
+    "en": "artificial intelligence",
+    "unit": 4
+},
+{
+    "ru": "данные",
+    "en": "data",
+    "unit": 4
+},
+{
+    "ru": "компьютер",
+    "en": "computer",
+    "unit": 4
+},
+{
+    "ru": "сеть",
+    "en": "network",
+    "unit": 4
+},
+{
+    "ru": "сервер",
+    "en": "server",
+    "unit": 4
+},
+{
+    "ru": "безопасность",
+    "en": "security",
+    "unit": 4
+}
+]

@@ -1,0 +1,52 @@
+[
+{
+    "ru": "наука",
+    "en": "science",
+    "unit": 8
+},
+{
+    "ru": "исследование",
+    "en": "research",
+    "unit": 8
+},
+{
+    "ru": "эксперимент",
+    "en": "experiment",
+    "unit": 8
+},
+{
+    "ru": "теория",
+    "en": "theory",
+    "unit": 8
+},
+{
+    "ru": "гипотеза",
+    "en": "hypothesis",
+    "unit": 8
+},
+{
+    "ru": "данные",
+    "en": "data",
+    "unit": 8
+},
+{
+    "ru": "анализ",
+    "en": "analysis",
+    "unit": 8
+},
+{
+    "ru": "результат",
+    "en": "result",
+    "unit": 8
+},
+{
+    "ru": "вывод",
+    "en": "conclusion",
+    "unit": 8
+},
+{
+    "ru": "публикация",
+    "en": "publication",
+    "unit": 8
+}
+]

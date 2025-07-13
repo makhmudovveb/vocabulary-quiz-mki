@@ -1,0 +1,52 @@
+[
+  {
+    "ru": "работа",
+    "en": "work",
+    "unit": 5
+},
+{
+    "ru": "офис",
+    "en": "office",
+    "unit": 5
+},
+{
+    "ru": "компьютер",
+    "en": "computer",
+    "unit": 5
+},
+{
+    "ru": "телефон",
+    "en": "phone",
+    "unit": 5
+},
+{
+    "ru": "интернет",
+    "en": "internet",
+    "unit": 5
+},
+{
+    "ru": "письмо",
+    "en": "letter",
+    "unit": 5
+},
+{
+    "ru": "газета",
+    "en": "newspaper",
+    "unit": 5
+},
+{
+    "ru": "магазин",
+    "en": "shop",
+    "unit": 5
+},
+{
+    "ru": "парк",
+    "en": "park",
+    "unit": 5
+},
+{
+    "ru": "театр",
+    "en": "theater",
+    "unit": 5
+}  
+]

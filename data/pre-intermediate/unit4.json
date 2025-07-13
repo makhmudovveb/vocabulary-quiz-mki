@@ -1,0 +1,12 @@
+[
+  { "ru": "погода", "en": "weather", "unit": 4 },
+  { "ru": "дождь", "en": "rain", "unit": 4 },
+  { "ru": "снег", "en": "snow", "unit": 4 },
+  { "ru": "ветер", "en": "wind", "unit": 4 },
+  { "ru": "туман", "en": "fog", "unit": 4 },
+  { "ru": "жарко", "en": "hot", "unit": 4 },
+  { "ru": "холодно", "en": "cold", "unit": 4 },
+  { "ru": "солнечно", "en": "sunny", "unit": 4 },
+  { "ru": "облачно", "en": "cloudy", "unit": 4 },
+  { "ru": "гроза", "en": "storm", "unit": 4 }
+]

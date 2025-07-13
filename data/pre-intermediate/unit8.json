@@ -1,0 +1,12 @@
+[
+  { "ru": "путешествие", "en": "travel", "unit": 8 },
+  { "ru": "самолёт", "en": "plane", "unit": 8 },
+  { "ru": "поезд", "en": "train", "unit": 8 },
+  { "ru": "автобус", "en": "bus", "unit": 8 },
+  { "ru": "отель", "en": "hotel", "unit": 8 },
+  { "ru": "багаж", "en": "luggage", "unit": 8 },
+  { "ru": "паспорт", "en": "passport", "unit": 8 },
+  { "ru": "бронирование", "en": "booking", "unit": 8 },
+  { "ru": "турист", "en": "tourist", "unit": 8 },
+  { "ru": "экскурсия", "en": "excursion", "unit": 8 }
+]

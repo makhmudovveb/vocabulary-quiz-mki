@@ -1,0 +1,52 @@
+[
+  {
+    "ru": "образование",
+    "en": "education",
+    "unit": 1
+},
+{
+    "ru": "университет",
+    "en": "university",
+    "unit": 1
+},
+{
+    "ru": "курс",
+    "en": "course",
+    "unit": 1
+},
+{
+    "ru": "лекция",
+    "en": "lecture",
+    "unit": 1
+},
+{
+    "ru": "экзамен",
+    "en": "exam",
+    "unit": 1
+},
+{
+    "ru": "задание",
+    "en": "assignment",
+    "unit": 1
+},
+{
+    "ru": "стипендия",
+    "en": "scholarship",
+    "unit": 1
+},
+{
+    "ru": "исследование",
+    "en": "research",
+    "unit": 1
+},
+{
+    "ru": "учёный",
+    "en": "scientist",
+    "unit": 1
+},
+{
+    "ru": "библиотека",
+    "en": "library",
+    "unit": 1
+}
+]

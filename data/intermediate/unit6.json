@@ -1,0 +1,57 @@
+[
+{
+    "ru": "турист",
+    "en": "tourist",
+    "unit": 5
+},
+{
+    "ru": "здоровье",
+    "en": "health",
+    "unit": 6
+},
+{
+    "ru": "медицина",
+    "en": "medicine",
+    "unit": 6
+},
+{
+    "ru": "больница",
+    "en": "hospital",
+    "unit": 6
+},
+{
+    "ru": "лечение",
+    "en": "treatment",
+    "unit": 6
+},
+{
+    "ru": "пациент",
+    "en": "patient",
+    "unit": 6
+},
+{
+    "ru": "симптом",
+    "en": "symptom",
+    "unit": 6
+},
+{
+    "ru": "диагноз",
+    "en": "diagnosis",
+    "unit": 6
+},
+{
+    "ru": "операция",
+    "en": "surgery",
+    "unit": 6
+},
+{
+    "ru": "реабилитация",
+    "en": "rehabilitation",
+    "unit": 6
+},
+{
+    "ru": "врач",
+    "en": "doctor",
+    "unit": 6
+}
+]

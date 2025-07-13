@@ -1,0 +1,12 @@
+[
+  { "ru": "работа", "en": "work", "unit": 3 },
+  { "ru": "офис", "en": "office", "unit": 3 },
+  { "ru": "компьютер", "en": "computer", "unit": 3 },
+  { "ru": "интернет", "en": "internet", "unit": 3 },
+  { "ru": "телефон", "en": "phone", "unit": 3 },
+  { "ru": "письмо", "en": "letter", "unit": 3 },
+  { "ru": "проект", "en": "project", "unit": 3 },
+  { "ru": "встреча", "en": "meeting", "unit": 3 },
+  { "ru": "команда", "en": "team", "unit": 3 },
+  { "ru": "документ", "en": "document", "unit": 3 }
+]

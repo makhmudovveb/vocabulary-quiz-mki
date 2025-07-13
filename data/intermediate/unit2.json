@@ -1,0 +1,52 @@
+[
+{
+    "ru": "здоровье",
+    "en": "health",
+    "unit": 2
+},
+{
+    "ru": "диета",
+    "en": "diet",
+    "unit": 2
+},
+{
+    "ru": "фитнес",
+    "en": "fitness",
+    "unit": 2
+},
+{
+    "ru": "йога",
+    "en": "yoga",
+    "unit": 2
+},
+{
+    "ru": "медитация",
+    "en": "meditation",
+    "unit": 2
+},
+{
+    "ru": "врач",
+    "en": "doctor",
+    "unit": 2
+},
+{
+    "ru": "пациент",
+    "en": "patient",
+    "unit": 2
+},
+{
+    "ru": "лечение",
+    "en": "treatment",
+    "unit": 2
+},
+{
+    "ru": "травма",
+    "en": "injury",
+    "unit": 2
+},
+{
+    "ru": "аптека",
+    "en": "pharmacy",
+    "unit": 2
+}
+]

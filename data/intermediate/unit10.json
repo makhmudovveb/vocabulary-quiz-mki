@@ -1,0 +1,52 @@
+[
+  {
+      "ru": "экономика",
+      "en": "economy",
+      "unit": 10
+  },
+  {
+      "ru": "рынок",
+      "en": "market",
+      "unit": 10
+  },
+  {
+      "ru": "бизнес",
+      "en": "business",
+      "unit": 10
+  },
+  {
+      "ru": "финансы",
+      "en": "finance",
+      "unit": 10
+  },
+  {
+      "ru": "инвестиции",
+      "en": "investment",
+      "unit": 10
+  },
+  {
+      "ru": "прибыль",
+      "en": "profit",
+      "unit": 10
+  },
+  {
+      "ru": "убыток",
+      "en": "loss",
+      "unit": 10
+  },
+  {
+      "ru": "налог",
+      "en": "tax",
+      "unit": 10
+  },
+  {
+      "ru": "банк",
+      "en": "bank",
+      "unit": 10
+  },
+  {
+      "ru": "счет",
+      "en": "account",
+      "unit": 10
+  }
+]

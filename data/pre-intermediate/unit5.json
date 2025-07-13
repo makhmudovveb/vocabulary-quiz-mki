@@ -1,0 +1,12 @@
+[
+  { "ru": "здоровье", "en": "health", "unit": 5 },
+  { "ru": "врач", "en": "doctor", "unit": 5 },
+  { "ru": "больница", "en": "hospital", "unit": 5 },
+  { "ru": "лекарство", "en": "medicine", "unit": 5 },
+  { "ru": "симптом", "en": "symptom", "unit": 5 },
+  { "ru": "болезнь", "en": "disease", "unit": 5 },
+  { "ru": "терапия", "en": "therapy", "unit": 5 },
+  { "ru": "анализ", "en": "test", "unit": 5 },
+  { "ru": "операция", "en": "surgery", "unit": 5 },
+  { "ru": "рецепт", "en": "prescription", "unit": 5 }
+]

@@ -1,0 +1,12 @@
+[
+  { "ru": "город", "en": "city", "unit": 2 },
+  { "ru": "посёлок", "en": "town", "unit": 2 },
+  { "ru": "деревня", "en": "village", "unit": 2 },
+  { "ru": "улица", "en": "street", "unit": 2 },
+  { "ru": "площадь", "en": "square", "unit": 2 },
+  { "ru": "парк", "en": "park", "unit": 2 },
+  { "ru": "сад", "en": "garden", "unit": 2 },
+  { "ru": "мост", "en": "bridge", "unit": 2 },
+  { "ru": "здание", "en": "building", "unit": 2 },
+  { "ru": "магазин", "en": "shop", "unit": 2 }
+]

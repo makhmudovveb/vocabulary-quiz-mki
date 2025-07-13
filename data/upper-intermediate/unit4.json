@@ -1,0 +1,13 @@
+[
+  
+  { "ru": "наука", "en": "science", "unit": 4 },
+  { "ru": "исследование", "en": "research", "unit": 4 },
+  { "ru": "технология", "en": "technology", "unit": 4 },
+  { "ru": "эксперимент", "en": "experiment", "unit": 4 },
+  { "ru": "гипотеза", "en": "hypothesis", "unit": 4 },
+  { "ru": "анализ", "en": "analysis", "unit": 4 },
+  { "ru": "теория", "en": "theory", "unit": 4 },
+  { "ru": "публикация", "en": "publication", "unit": 4 },
+  { "ru": "открытие", "en": "discovery", "unit": 4 },
+  { "ru": "инновация", "en": "innovation", "unit": 4 }
+]

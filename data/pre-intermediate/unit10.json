@@ -1,0 +1,12 @@
+[
+  { "ru": "культура", "en": "culture", "unit": 10 },
+  { "ru": "музыка", "en": "music", "unit": 10 },
+  { "ru": "искусство", "en": "art", "unit": 10 },
+  { "ru": "литература", "en": "literature", "unit": 10 },
+  { "ru": "театр", "en": "theater", "unit": 10 },
+  { "ru": "кино", "en": "movie", "unit": 10 },
+  { "ru": "танец", "en": "dance", "unit": 10 },
+  { "ru": "фестиваль", "en": "festival", "unit": 10 },
+  { "ru": "традиция", "en": "tradition", "unit": 10 },
+  { "ru": "национальный", "en": "national", "unit": 10 }
+]
