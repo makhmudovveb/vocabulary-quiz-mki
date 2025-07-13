@@ -184,15 +184,26 @@ startQuizBtn.addEventListener("click", () => {
   startTimer();
 });
 
+function shuffle(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
+
 async function loadWords() {
   const level = levelSelect.value;
   const unit = unitSelect.value;
   const path = `./data/${level}/unit${unit}.json`;
+
   try {
     const res = await axios.get(path);
     const allWords = res.data.map(w => ({ word: w.en, translation: w.ru }));
+    const shuffled = shuffle([...allWords]); // Копируем и перемешиваем
     const count = Math.floor((allWords.length * quizPercentage) / 100);
-    quizData = allWords.sort(() => 0.5 - Math.random()).slice(0, count);
+    quizData = shuffled.slice(0, count);
+
     quizCountDisplay.textContent = `The quiz will have: ${quizData.length} words`;
     wordListBody.innerHTML = quizData
       .map(w => `<tr><td>${w.translation}</td><td>${w.word}</td></tr>`)
@@ -202,6 +213,29 @@ async function loadWords() {
     wordListBody.innerHTML = "<tr><td colspan='2'>Error loading words</td></tr>";
   }
 }
+
+// async function loadWords() {
+//   const level = levelSelect.value;
+//   const unit = unitSelect.value;
+//   const path = `./data/${level}/unit${unit}.json`;
+//   try {
+//     const res = await axios.get(path);
+//     const allWords = res.data.map(w => ({ word: w.en, translation: w.ru }));
+//     const count = Math.floor((allWords.length * quizPercentage) / 100);
+
+//     // 🔀 Перемешивание Fisher-Yates
+//     const shuffled = shuffle([...allWords]);
+//     quizData = shuffled.slice(0, count);
+
+//     quizCountDisplay.textContent = `The quiz will have: ${quizData.length} words`;
+//     wordListBody.innerHTML = quizData
+//       .map(w => `<tr><td>${w.translation}</td><td>${w.word}</td></tr>`)
+//       .join("");
+//     startQuizBtn.disabled = false;
+//   } catch {
+//     wordListBody.innerHTML = "<tr><td colspan='2'>Error loading words</td></tr>";
+//   }
+// }
 
 function openQuizModal() {
   quizModal.classList.remove("hidden");

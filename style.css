@@ -18,6 +18,12 @@ body {
   backdrop-filter: blur(4px);
   box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.2);
 }
+.sidebar {
+  z-index: 1000;
+}
+#overlay {
+  z-index: 999;  /* Меньше, чем у .sidebar */
+}
 
 @media (min-width: 768px) {
   .layout {
@@ -41,7 +47,7 @@ body {
   border-bottom-right-radius: 15px;
   box-shadow: 2px 0 8px rgba(0,0,0,0.5);
   overflow-y: auto;
-  z-index: 1020;
+  z-index: 1990;
 }
 
 @media (min-width: 768px) {
@@ -185,6 +191,7 @@ button:disabled {
   border-bottom: 1px solid rgba(255,255,255,0.1);
   color: #fff;
 }
+
 #wordList th {
   background: rgba(13,71,161,0.9);
   text-transform: uppercase;
@@ -193,6 +200,8 @@ button:disabled {
   font-weight: 700;
 }
 #wordList td {
+  text-transform: capitalize;
+
   font-size: 1.05em;
   font-weight: 500;
   color: #16386e;
@@ -345,26 +354,7 @@ button:disabled {
 
 /* Адаптивная таблица для мобильных */
 @media (max-width: 600px) {
-  #wordList thead { display: none; }
-  #wordList tr {
-    display: block;
-    margin-bottom: 10px;
-  }
-  #wordList td {
-    display: block;
-    width: 100%;
-    text-align: right;
-    padding-left: 50%;
-    position: relative;
-  }
-  #wordList td::before {
-    content: attr(data-label);
-    position: absolute;
-    left: 12px;
-    top: 12px;
-    font-weight: 700;
-    color: #0d47a1;
-  }
+
 }
 
 /* Анимация модальных окон */
@@ -405,17 +395,18 @@ button:disabled {
     width: 280px;
     transform: translateX(-100%);
     transition: transform 0.3s ease;
-    z-index: 1500;
+    z-index: 10500;
   }
   .sidebar.open {
     transform: translateX(0);
   }
   #overlay {
+    width: 100px;
+    height: 100px;
     display: none;
-    position: fixed;
     inset: 0;
     background: rgba(0,0,0,0.3);
-    z-index: 1400;
+    z-index: 1000;
   }
   #overlay.active {
     display: block;
