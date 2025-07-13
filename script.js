@@ -59,6 +59,7 @@ const userAnswer = document.getElementById("userAnswer");
 const submitAnswerBtn = document.getElementById("submitAnswer");
 const feedback = document.getElementById("feedback");
 const timerDisplay = document.getElementById("timer");
+const togglePassword = document.getElementById("togglePassword");
 const resultModal = document.getElementById("resultModal");
 const resultCorrect = document.getElementById("resultCorrect");
 const resultWrong = document.getElementById("resultWrong");
@@ -192,39 +193,16 @@ function shuffle(array) {
   return array;
 }
 
-async function loadWords() {
-  const level = levelSelect.value;
-  const unit = unitSelect.value;
-  const path = `./data/${level}/unit${unit}.json`;
-
-  try {
-    const res = await axios.get(path);
-    const allWords = res.data.map(w => ({ word: w.en, translation: w.ru }));
-    const shuffled = shuffle([...allWords]); // Копируем и перемешиваем
-    const count = Math.floor((allWords.length * quizPercentage) / 100);
-    quizData = shuffled.slice(0, count);
-
-    quizCountDisplay.textContent = `The quiz will have: ${quizData.length} words`;
-    wordListBody.innerHTML = quizData
-      .map(w => `<tr><td>${w.translation}</td><td>${w.word}</td></tr>`)
-      .join("");
-    startQuizBtn.disabled = false;
-  } catch {
-    wordListBody.innerHTML = "<tr><td colspan='2'>Error loading words</td></tr>";
-  }
-}
-
 // async function loadWords() {
 //   const level = levelSelect.value;
 //   const unit = unitSelect.value;
 //   const path = `./data/${level}/unit${unit}.json`;
+
 //   try {
 //     const res = await axios.get(path);
 //     const allWords = res.data.map(w => ({ word: w.en, translation: w.ru }));
+//     const shuffled = shuffle([...allWords]); // Копируем и перемешиваем
 //     const count = Math.floor((allWords.length * quizPercentage) / 100);
-
-//     // 🔀 Перемешивание Fisher-Yates
-//     const shuffled = shuffle([...allWords]);
 //     quizData = shuffled.slice(0, count);
 
 //     quizCountDisplay.textContent = `The quiz will have: ${quizData.length} words`;
@@ -236,6 +214,38 @@ async function loadWords() {
 //     wordListBody.innerHTML = "<tr><td colspan='2'>Error loading words</td></tr>";
 //   }
 // }
+
+async function loadWords() {
+  const level = levelSelect.value;
+  const unit = unitSelect.value;
+  const path = `./data/${level}/unit${unit}.json`;
+
+  try {
+    console.log("Loading from:", path); // отладка
+
+    const res = await axios.get(path);
+    const allWords = res.data.map(w => ({ word: w.en, translation: w.ru }));
+
+    // 👇 Показываем ВСЕ слова в таблице
+    wordListBody.innerHTML = allWords
+      .map(w => `<tr><td>${(w.translation)}</td><td>${(w.word)}</td></tr>`)
+      .join("");
+
+    // 👇 75% перемешанных слов для квиза
+    const shuffled = shuffle([...allWords]);
+    const count = Math.floor((allWords.length * quizPercentage) / 100);
+    quizData = shuffled.slice(0, count);
+
+    quizCountDisplay.textContent = `The quiz will have: ${quizData.length} words`;
+    startQuizBtn.disabled = false;
+
+  } catch (err) {
+    console.error("❌ Error loading words:", err.message);
+    wordListBody.innerHTML = "<tr><td colspan='2'>Error loading words</td></tr>";
+  }
+}
+
+
 
 function openQuizModal() {
   quizModal.classList.remove("hidden");
@@ -457,4 +467,7 @@ document.getElementById("clearStatsBtn")?.addEventListener("click", async () => 
   if (confirm("Are you sure you want to delete ALL statistics?")) {
     await clearAllStats();
   }
+});
+togglePassword.addEventListener("change", () => {
+  passwordInput.type = togglePassword.checked ? "text" : "password";
 });
