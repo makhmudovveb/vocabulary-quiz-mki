@@ -117,7 +117,7 @@ function showUserInterface() {
   greeting.textContent = currentUser.nickname;
 
   // Показываем/скрываем панель админа (но НЕ вызываем render здесь)
-  if (currentUser.email === "bekhzodmakhmudov2711@gmail.com") {
+  if (currentUser.email === "adminmki@gmail.com") {
     adminPanel.classList.remove("hidden");
   } else {
     adminPanel.classList.add("hidden");
@@ -138,7 +138,7 @@ onAuthStateChanged(auth, async (user) => {
 
       showUserInterface();
 
-      if (currentUser.email === "bekhzodmakhmudov2711@gmail.com") {
+      if (currentUser.email === "adminmki@gmail.com") {
         await renderAdminStats();
       } else {
         await renderUserStats();
@@ -347,7 +347,7 @@ async function endQuiz() {
     date: new Date().toISOString()
   });
 
-  if (currentUser.email === "bekhzodmakhmudov2711@gmail.com") {
+  if (currentUser.email === "adminmki@gmail.com") {
     renderAdminStats();
   } else {
     renderUserStats();
