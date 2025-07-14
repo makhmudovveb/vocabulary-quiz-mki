@@ -270,6 +270,12 @@ function showQuestion() {
   submitAnswerBtn.disabled = true;
   timeLeft = 20;
   updateTimerDisplay();
+  setTimeout(() => {
+    userAnswer.focus();
+  
+    // 👉 iOS Safari fix: небольшая прокрутка помогает показать клавиатуру
+    window.scrollTo(0, userAnswer.offsetTop - 30);
+  }, 100);
 }
 
 function updateTimerDisplay() {
@@ -346,7 +352,37 @@ async function endQuiz() {
   } else {
     renderUserStats();
   }
+  console.log("Saving stats for", currentUser.uid);
 }
+
+
+const saveAndEndBtn = document.getElementById("saveAndEndBtn");
+
+saveAndEndBtn.addEventListener("click", async () => {
+  saveAndEndBtn.disabled = true;
+  saveAndEndBtn.textContent = "Saving...";
+
+  try {
+    await saveUserStats(currentUser.uid, {
+      correct: correctCount,
+      wrong: wrongCount,
+      level: levelSelect.value,
+      unit: unitSelect.value,
+      date: new Date().toISOString()
+    });
+
+    // ⏳ Немного подождём, чтобы показать пользователю, что сохранилось
+    setTimeout(() => {
+      location.reload(); // ✅ Перезагружаем страницу
+    }, 800);
+
+  } catch (err) {
+    console.error("❌ Error saving stats:", err);
+    alert("Failed to save stats.");
+    saveAndEndBtn.disabled = false;
+    saveAndEndBtn.textContent = "Save and Finish";
+  }
+});
 
 async function saveUserStats(uid, stats) {
   const ref = doc(db, "stats", uid);
