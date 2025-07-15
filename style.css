@@ -6,6 +6,36 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
 }
+.test-warning {
+  width: 100%;
+  max-width: 900px;
+  background: #d32f2f; /* насыщенно-красный */
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 800;
+  text-align: center;
+  padding: 14px 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+  .test-banner {
+    background: linear-gradient(135deg, #ff9800, #ffc107);
+    color: #0d47a1;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    letter-spacing: 1px;
+    position: sticky;
+    top: 0;
+    z-index: 1050;
+  
+}
 .main-logo {
   width: 262px;
   height: 162px;
